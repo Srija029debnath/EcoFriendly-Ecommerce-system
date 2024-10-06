@@ -1,0 +1,172 @@
+
+.navbar {
+    background-color: #131921;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: absolute; /* Position the search bar absolutely */
+    left: 50%;          /* Center horizontally based on the container */
+    transform: translateX(-50%); /* Shift to center accurately */
+}
+
+.search-bar select,
+.search-bar input,
+.search-bar button {
+    padding: 5px;
+}
+
+.search-bar input {
+    width: 300px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 50px;
+    
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+}
+
+.user-actions a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.cart::before {
+    content: '🛒';
+    margin-right: 5px;
+}
+
+.categories {
+    background-color: #232f3e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Ensures space between the 'All' button and the other items */
+}
+
+.categories ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.categories ul li:first-child {
+    margin-right: auto; /* Pushes the first item ('All') to the left */
+}
+
+.categories ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header h1 {
+    font-size: 2em;
+    font-family:serif;
+}
+
+
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+.about-us .content {
+    flex: 1;
+    padding-right: 50px;
+}
+.about-us h1 {
+    font-size: 2.7em;
+    color: #9d582a;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-us h2 {
+    font-size: 2.5em;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.about-us .image {
+    flex: 1;
+}
+
+.about-us .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-details {
+    background-color: #264653;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-details h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact-details a {
+    color: #f4a261;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
